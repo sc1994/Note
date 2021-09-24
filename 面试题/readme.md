@@ -66,6 +66,16 @@ public static readonly Foo FooSingleton = new Foo();
 - 中间件
 - int 累加的同步锁(使用 lock 关键字 或者 volatile 关键字)
 
+#### 中间件的几种定义方式
+
+- 接口继承
+- 约定
+- 委托
+
+#### 委托形式的中间件 , 接受和返回什么样的参数
+
+- TODO
+
 #### HTTP 请求由哪几部分构成
 
 - URL       (http/https)
