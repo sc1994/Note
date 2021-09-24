@@ -45,6 +45,10 @@ public static readonly Foo FooSingleton = new Foo();
 * `Scoped`
 * `Singleton`
 
+#### `asp.net` 中 `controller` 的生命周期是什么
+
+- Scope
+
 #### `asp.net ` 实现了从接受http请求到调用对应的 `controller `的 `action`需要编写哪些功能
 
 - 监听指定端口
