@@ -16,6 +16,15 @@
 
 - 考察了 对 struct 和 class 的了解
 
+#### 这段单例代码有什么问题, 如何改进
+
+```java
+public class Foo {}
+
+public static readonly Foo FooSingleton = new Foo();
+```
+
+
 #### `GC` 的回收机制, 如何断言该对象是否可以回收
 
 * TODO
@@ -26,13 +35,9 @@
 * 1
 * 2
 
-#### 这段单例代码有什么问题, 如何改进
+#### `Dispose` 和 解构函数的异同, 使用场景分别是什么
 
-```java
-public class Foo {}
-
-public static readonly Foo FooSingleton = new Foo();
-```
+* TODO
 
 #### `DI `中, 三种生命周期的对象将会在什么时候调用 `Dispose`
 
